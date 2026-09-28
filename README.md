@@ -26,7 +26,15 @@ The project currently lives at `UnitedOpen-Source/perfratio`. Change `repository
 
 ## Hosting
 
-Built with React and vinext, targeting Cloudflare Workers through the Sites Vite plugin. Hosting metadata is in `.openai/hosting.json`. No database, authentication or analytics are used by the website.
+Production: https://perfratio.better-web.org
+
+Built with React and vinext on Cloudflare Workers. `wrangler.json` selects the OpenDigital account and binds `perfratio.better-web.org` as a Custom Domain. Cloudflare provisions DNS and HTTPS. Publish with an authenticated Wrangler session:
+
+```sh
+npm run deploy
+```
+
+Deploy uses the generated `dist/server/wrangler.json` so the compiled Worker and client assets stay aligned. The Sites Vite plugin and `.openai/hosting.json` remain available for the separate Sites preview. No database, authentication or analytics are used by the website.
 
 ## Content sources
 
