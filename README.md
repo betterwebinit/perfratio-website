@@ -1,6 +1,6 @@
 # perfratio website
 
-Website for **perfratio**, joining the Better Web ecosystem. Inspired by the Rustyll and Better Web websites: dark surfaces, mint accents, technical typography and practical documentation.
+Website for **perfratio**, joining the Better Web ecosystem. An original editorial identity: ink-plum surfaces, amber and coral measurement accents, expressive serif headlines and an instrument-style comparison board. The Rustyll and Better Web websites inform the ecosystem links and documentation structure.
 
 ## Develop
 
